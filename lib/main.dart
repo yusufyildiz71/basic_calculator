@@ -78,6 +78,7 @@ class _MainPageState extends State<MainPage> {
       margin: EdgeInsets.all(50.0),
       child: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             Text("$resultt"),
             TextField(
