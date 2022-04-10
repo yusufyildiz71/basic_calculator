@@ -82,6 +82,8 @@ class _MainPageState extends State<MainPage> {
             controller: t1,
             decoration: InputDecoration(
     border: OutlineInputBorder(),
+    labelText: "Number 1",
+    prefixIcon: Icon(Icons.one_k,color: Colors.black,),
     
   ),
           ),
@@ -89,6 +91,8 @@ class _MainPageState extends State<MainPage> {
             controller: t2,
             decoration: InputDecoration(
     border: OutlineInputBorder(),
+    labelText: "Number 2",
+    prefixIcon: Icon(Icons.two_k,color: Colors.black,),
     
   ),
           ),
