@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage> {
     setState(() {
       num1=num.parse(t1.text);
       num2=num.parse(t2.text);
-      resultt=num1 / num2;
+      resultt=num1 ~/ num2;
     });
   }
 
